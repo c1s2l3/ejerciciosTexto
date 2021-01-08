@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+form{border: 2px solid black; border-radius: 15px; background-color: #41807b;
+	margin: 10px 50px; width: 420px;
+}
+#formu {margin: 30px;}
+input, select, textarea {padding: 5px; margin: 5px;}
+#nombre, #mail, #asunto {width: 330px; margin-bottom: 10px;}
+#cmodo {margin-bottom: 15px;}
+#txt_nombre, #txt_email, #txt_asunto, #modo, #mens {
+	font-weight: bold; padding: 5px; margin: 20px 0 15px 0;}

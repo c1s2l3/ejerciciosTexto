@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" > 
+		<title>Ejercicio Formulario 2</title> 
+		<meta name="author" content="Carolina Suárez" >
+		<meta name="keywords" content="ejercicio, HTML, texto, Formulario " >
+		<meta name="description" content="Ejercicio de texto HTML" >
+		<link rel="stylesheet" type="text/css" href="estiloF2.css"></link>
+	</head>	
+	<body>	
+		<main>
+			<form action="#">
+				<div id="formu">
+  			    <label id="txt_nombre">Nombre:<br />
+  		    	<input type="text" id="nombre" name="txt_nombre" placeholder="Escribe tu nombre" /></label><!--anidando el input dentro del label nos ahorramos el atributo for--><br />
+  		    	<label id="txt_email" for="txt_email">Email:</label><br />
+  		    	<input type="email" id="mail" name="txt_email" placeholder="correo@empresa.com"><br />
+  		    	<label id="txt_asunto" for="txt_asunto">Asunto:</label><br />
+  		    	<select name="txt_asunto" id="asunto" size="3">
+  		    		<option>Pedir presupuesto web</option>
+  		    		<option>Solicitar cita previa</option>
+  		    		<option>Otros</option>
+  		    	</select><br />
+  		    	<div id="cmodo">
+  		    	<label id="modo" for="modo">¿Cómo nos ha conocido?</label><br />
+  		    	<input type="checkbox" id="amigo" name="conocido[]" value="0">
+  		    	<label for="amigo">Un amigo</label>
+  		    	<input type="checkbox" id="google" name="conocido[]" value="1">
+  		    	<label for="google">Googleando</label>
+  		    	<input type="checkbox" id="buzon" name="conocido[]" value="2">
+  		    	<label for="buzon">Buzoneo</label>
+  		    	<input type="checkbox" id="otros" name="conocido[]" value="3">
+  		    	<label for="otros">Otros</label><br />
+  		    </div>
+  		    	<label id="mens" for="mens">Escribe tu mensaje</label><br />	
+  		    	<textarea cols="45" rows="7" /></textarea><br />
+  		    	<input type="checkbox" name="aviso">
+  		    	<label for="aviso">He leído y acepto el <a href="#">aviso legal y la política de privacidad.</a></label><br />
+	  		    <input type="submit" value="Enviar"/>
+	  		</div>
+			</form>
+		</main>
+	</body>
+</html>
