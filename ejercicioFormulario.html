@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" > 
+		<title>Ejercicio Formulario</title> 
+		<meta name="author" content="Carolina Suárez" >
+		<meta name="keywords" content="ejercicio, HTML, texto, Formulario " >
+		<meta name="description" content="Ejercicio de texto HTML" >
+	</head>	
+	<body>	
+		<main>
+			<form action="#">
+  				<fieldset><legend>Datos de la incidencia:</legend>
+  			    <label>Usuario:<br />
+  		    	<input type="text" name="txt_nombre" /></label><!--anidando el input dentro del label nos ahorramos el atributo for--><br /><br />
+  		    	<label>Departamento:</label><br />
+  		    	<select name="txt_selector">
+  		    		<option>Informática</option>
+  		    		<option>Deportes</option>
+  		    		<option>Filosofía</option>
+  		    	</select><br /><br />
+  		    	<label for="txt_descripcion">Descripción:</label><br />
+  		    	<textarea cols="30" rows="30" /></textarea><br /><br />
+  		    	<label for="txt_pass">Contraseña:</label><br />
+				<input type="password" name="txt_pass" />
+				</fieldset>
+				<fieldset><legend>Botones de reset y envío:</legend>
+	  		    <input type="reset" value="Resetear"/>
+	  		    <input type="submit" value="Enviar"/>
+				</fieldset>
+			</form>
+		</main>
+	</body>
+</html>
